@@ -1,1 +1,10 @@
+body {
+	background: #1c325e;
+	color: #e0e9ed;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
 
+.controls {
+	margin: 50px 0;
+}
