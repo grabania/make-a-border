@@ -1,10 +1,38 @@
 body {
-	background: #1c325e;
-	color: #e0e9ed;
+	margin: 0;
+	padding: 0;
+	background: #f6f6f8;
+	color: #2c3334;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	overflow: hidden;
+}
+
+.hompage-section {
+	margin-top: 0;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+
+.controls,
+h2 {
+	position: relative;
+	text-align: center;
 }
 
 .controls {
-	margin: 50px 0;
+	font-size: 16px;
+	color: #5c5d59;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.img {
+	height: 80vh;
 }
