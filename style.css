@@ -16,12 +16,11 @@ body {
 .hompage {
 	margin: 0;
 	height: 100vh;
-	width: 100%;
-
+	width: 100%;		
 	flex-direction: column;
-			position: relative;
-left: 50%;
-transform: translateX(-50%);
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .controls,
@@ -35,8 +34,6 @@ h2 {
 	letter-spacing: 1px;
 	padding-top: 35px;
 	padding-bottom: 135px;
-
-
 }
 
 .controls label {
@@ -55,7 +52,6 @@ h2 {
 	background: var(--base);
 	filter: blur(var(--blur));
 	position: relative;
-left: 50%;
-transform: translateX(-50%);
-
+	left: 50%;
+	transform: translateX(-50%);
 }
